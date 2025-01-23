@@ -1,1 +1,1 @@
-This is a repository where I push daily after a complete a daily code wars challenge.
+This is a repository where I push after a complete a code wars challenge.
