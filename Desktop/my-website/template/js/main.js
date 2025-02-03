@@ -1254,4 +1254,13 @@
 //     if i == num_attacks - 1:
 //         final_swing = i * 4
 //     return total_damage + final_swing
-  
+
+// Complete the calculate_experience_points function.
+
+// The calculate_experience_points function takes a single parameter named level. Determine the total XP they have gained to reach the specified level from level 1 and return it.
+
+// def calculate_experience_points(level):
+//    xp_gained = level  
+//     if level * 5 >  
+//     return(level,xp_gained)
+            
