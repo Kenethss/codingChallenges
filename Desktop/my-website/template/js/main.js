@@ -1299,3 +1299,37 @@
 //     # Don't touch above this line
 
 //     pass
+
+// Finish the check_ingredient_match function by looping over the recipe list. The function should calculate and return a percentage of ingredients the character has, as well as a list of missing from the recipe.
+
+// For example, if these were the lists:
+
+// recipe = ["Dragon Scale", "Unicorn Hair", "Phoenix Feather", "Troll Tusk"]
+// ingredients = ["Dragon Scale", "Goblin Ear", "Phoenix Feather", "Troll Tusk"]
+
+// percentage, missing_ingredients = check_ingredient_match(recipe, ingredients)
+// print(percentage, missing_ingredients)
+// # Prints: 75.00 ["Unicorn Hair"]
+// Copy icon
+// The percentage must be a float, not an integer!
+
+
+// def check_ingredient_match(recipe, ingredients):
+//     missing_ingredients = []
+//     total_ingredients = 0
+//     matches = 0
+//     for item in recipe:
+//         if item in ingredients:
+//             total_ingredients += 1
+//             matches += 1
+            
+//         else:
+//             total_ingredients += 1
+//             missing_ingredients.append(item)
+
+              
+//     matches = (matches / total_ingredients) * 100                 
+    
+    
+//     return float(matches), missing_ingredients
+    
