@@ -1333,3 +1333,41 @@
     
 //     return float(matches), missing_ingredients
     
+// Complete the validate_path function. It should compare the expected sequence of waypoints with the actual sequence taken by a character and calculate how accurately the character followed the intended path.
+
+// Inputs
+// expected_path: A list of waypoints that define the correct path for the quest.
+// character_path: A list where the first index is the name of the character, and the rest of the list consists of the waypoints they actually visited.
+// character_path contains the same number of waypoints as expected_path.
+
+// Output
+// The function should return 2 values:
+
+// character_name: a string
+// percentage: a float
+
+// def validate_path(expected_path, character_path):
+//     total_correct = 0
+//     character_name = character_path[0]
+//     for i in range(len(expected_path)):
+//         if expected_path[i] == character_path[i + 1]:
+//             total_correct += 1
+            
+//     total_correct = (total_correct / len(expected_path)) * 100          
+    
+//     return character_name,float(total_correct)
+
+// We need to be able to report to our players how many enemies are in their immediate vicinity - but they want the count of each enemy by its kind.
+
+// If you run the code, it will result in a KeyError.
+
+// Fix the count_enemies function. It takes a list of enemy_names as input. It should return a dictionary where the keys are all the enemy names from the list, and the values are the counts of how many times each enemy appeared in the list.
+
+// def count_enemies(enemy_names):
+//     enemies_dict = {}
+//     for enemy_name in enemy_names:
+//         enemies_dict[enemy_name] += 1
+//     return enemies_dict
+
+    
+    
