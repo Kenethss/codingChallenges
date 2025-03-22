@@ -1403,7 +1403,29 @@
 //             max_so_far = count
 //     return enemy_name_max
     
-            
-            
+// Complete the remove_duplicates function. It should take a list of spells that a player has learned and return a new List where there is at most one of each title. You can accomplish this in at least two ways:
+
+// Iteration:
+
+// Create a set to track spells that have been seen
+// Create a list to store the unique spells
+// Iterate over the list
+// If the spell is not in the set, add it to the set and the list
+// Return the list
+// Set conversion:
+
+// Convert the list to a set
+// Convert the set back to a list and return it.
+
+// def remove_duplicates(spells):
+//     completedList = []
+//     correctSet = set()
+//     for spell in spells:
+//         correctSet.add(spell)
+//     for i in correctSet:
+//         completedList.append(i)
+//     return completedList
+    
+        
             
     
