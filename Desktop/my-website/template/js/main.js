@@ -1428,4 +1428,13 @@
     
         
             
-    
+// In your shell, set 2 variables:
+// department to engineering
+// team to ops
+// Use echo to print the following message (using the $department and $team variables):
+// I work in engineering on ops
+// Run the history command and paste its full output into the text field, including the variables you set and the final echo command.
+
+// credithistory.txt	freedomunited.txt	travelrewards.txt
+// creditplus.txt		jointrewardsplux.txt	worldbanccard.txt
+// economypoints.txt	tbills.txt
