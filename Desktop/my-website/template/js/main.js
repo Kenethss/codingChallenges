@@ -1438,3 +1438,14 @@
 // credithistory.txt	freedomunited.txt	travelrewards.txt
 // creditplus.txt		jointrewardsplux.txt	worldbanccard.txt
 // economypoints.txt	tbills.txt
+
+
+// Applications often write their logs to files on disk. These logs can contain useful information about what the application is doing, and can also be used to debug problems. As a security auditor, you need to dig through these logs to find any evidence of suspicious activity.
+
+// Use the grep command to find any lines with the text "CRITICAL" (all caps) in the worldbanc/private/logs/2024-01-10.log file.
+
+// Paste the output of your grep command into the input field and submit it.
+// 2024-01-10 01:10:27 CRITICAL: Boots is loose in the server room.
+// 2024-01-10 05:58:18 CRITICAL: Server is on fire, please evacuate.
+// 2024-01-10 20:13:04 CRITICAL: Someone rm -rf'd the root directory.
+// 2024-01-10 20:19:37 CRITICAL: Database files are corrupt.
