@@ -1449,3 +1449,7 @@
 // 2024-01-10 05:58:18 CRITICAL: Server is on fire, please evacuate.
 // 2024-01-10 20:13:04 CRITICAL: Someone rm -rf'd the root directory.
 // 2024-01-10 20:19:37 CRITICAL: Database files are corrupt.
+
+// Interpreter directives allow scripts and data files to be used as commands, hiding the details of their implementation from users and other programs, by removing the need to prefix scripts with their interpreter on the command line.
+
+// some/path/to/foo bar baz
